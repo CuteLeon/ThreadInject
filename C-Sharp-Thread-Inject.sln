@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Sharp-Class-Libraries", "Class Libraries\C-Sharp-Class-Libraries.csproj", "{52A13287-A004-43C7-8B6F-86C4926D7155}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13E87BC7-FAA3-4D61-BCFF-402AE77863DB} = {13E87BC7-FAA3-4D61-BCFF-402AE77863DB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP-Inject-DLL", "CPP Inject DLL\Win32Project4.vcxproj", "{13E87BC7-FAA3-4D61-BCFF-402AE77863DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Sharp-Inject", "C Sharp Inject\C-Sharp-Inject.csproj", "{FCF85F64-68B2-4413-9894-CB125EA24A7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52A13287-A004-43C7-8B6F-86C4926D7155}.Debug|x64.ActiveCfg = Debug|x64
+		{52A13287-A004-43C7-8B6F-86C4926D7155}.Debug|x64.Build.0 = Debug|x64
+		{52A13287-A004-43C7-8B6F-86C4926D7155}.Debug|x86.ActiveCfg = Debug|x86
+		{52A13287-A004-43C7-8B6F-86C4926D7155}.Debug|x86.Build.0 = Debug|x86
+		{52A13287-A004-43C7-8B6F-86C4926D7155}.Release|x64.ActiveCfg = Release|x64
+		{52A13287-A004-43C7-8B6F-86C4926D7155}.Release|x64.Build.0 = Release|x64
+		{52A13287-A004-43C7-8B6F-86C4926D7155}.Release|x86.ActiveCfg = Release|x86
+		{52A13287-A004-43C7-8B6F-86C4926D7155}.Release|x86.Build.0 = Release|x86
+		{13E87BC7-FAA3-4D61-BCFF-402AE77863DB}.Debug|x64.ActiveCfg = Debug|x64
+		{13E87BC7-FAA3-4D61-BCFF-402AE77863DB}.Debug|x64.Build.0 = Debug|x64
+		{13E87BC7-FAA3-4D61-BCFF-402AE77863DB}.Debug|x86.ActiveCfg = Debug|Win32
+		{13E87BC7-FAA3-4D61-BCFF-402AE77863DB}.Debug|x86.Build.0 = Debug|Win32
+		{13E87BC7-FAA3-4D61-BCFF-402AE77863DB}.Release|x64.ActiveCfg = Release|x64
+		{13E87BC7-FAA3-4D61-BCFF-402AE77863DB}.Release|x64.Build.0 = Release|x64
+		{13E87BC7-FAA3-4D61-BCFF-402AE77863DB}.Release|x86.ActiveCfg = Release|Win32
+		{13E87BC7-FAA3-4D61-BCFF-402AE77863DB}.Release|x86.Build.0 = Release|Win32
+		{FCF85F64-68B2-4413-9894-CB125EA24A7F}.Debug|x64.ActiveCfg = Debug|x64
+		{FCF85F64-68B2-4413-9894-CB125EA24A7F}.Debug|x64.Build.0 = Debug|x64
+		{FCF85F64-68B2-4413-9894-CB125EA24A7F}.Debug|x86.ActiveCfg = Debug|x86
+		{FCF85F64-68B2-4413-9894-CB125EA24A7F}.Debug|x86.Build.0 = Debug|x86
+		{FCF85F64-68B2-4413-9894-CB125EA24A7F}.Release|x64.ActiveCfg = Release|x64
+		{FCF85F64-68B2-4413-9894-CB125EA24A7F}.Release|x64.Build.0 = Release|x64
+		{FCF85F64-68B2-4413-9894-CB125EA24A7F}.Release|x86.ActiveCfg = Release|x86
+		{FCF85F64-68B2-4413-9894-CB125EA24A7F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
